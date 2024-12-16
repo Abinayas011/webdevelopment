@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <title>eventadd</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="sr.js"></script>
+        <div class="navbarr">
+            <h1>UPLOAD YOUR CERTIFICATE AND PREVIOUS PATICIPATION HERE !!!</h1>
+        </div>
+        <div class="container">
+            <div class="book">
+
+                <h2>SF ENT</h2>
+                <h4>dance event</h4>
+                <h4>solo</h4>
+                <h5>Third price in western dance</h5>
+                <p>I parcipated in solo parformance and i win third price in this event and it was very wonderfull experience for me in my dance career.</p>
+                <button onclick="deletebook(event)">Delete</button>
+            </div>
+        </div>
+        <div class="pop-over"></div>
+        <div class="pop-box">
+            <h2>Add Event</h2>
+            <form>
+                <input type="text" placeholder="Company Name" id="company-title">
+                <input type="text" placeholder="Event Name" id="event-title">
+                <input type="text" placeholder="Event Type" id="event-type">
+                <textarea placeholder="Short Discription" id="description"></textarea>
+                <button id="add-event">Add Event</button>
+                <button id="cancel-event">Cancel</button>
+            </form>
+        </div>
+        <button class="add-button" id="popup">+</button>   
+        <table border="3" class="submit">
+            <tr>
+                <td><h1><a href="register.html" >Submit Here</a></h1></td>
+            </tr>
+        </table>
+    </body>
+</html>

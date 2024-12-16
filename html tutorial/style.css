@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbarr{
+    background-color: brown;
+    padding: 10px;
+}
+.container{
+    padding: 20px;
+
+}
+.book{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    color: aliceblue;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book h2{
+    color:brown;
+}
+.book button{
+    background-color: brown;
+    color: black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+
+}
+.add-button{
+    background-color: brown;
+    color: black;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.submit{
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    border: none;
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    
+}
+.pop-over{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+    display: none;
+}
+.pop-box{
+    background-color: brown;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.pop-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+.pop-box textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+.pop-box button{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: blanchedalmond;
+    margin: 5px;
+}
+.pop-box input:focus{
+    outline: none;
+}
+.pop-box textarea:focus{
+    outline: none;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+.title{
+    color: aqua;
+}
+li,h1,u1{
+    display: inline;
+}
+ul{
+    margin-left: 80%;
+}
+li{
+    color:white ;
+    cursor: pointer;
+}
+li:hover{
+    color: brown;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 205px;
+}
+.box:hover{
+    background-color: brown;
+}
+
+.albums{
+    text-align: center;
+    padding: 50px;
+}
+.img{
+    padding: 40px;
+}
+.room{
+    padding: 20px;
+}
+.rm{
+    padding: 20px;
+}
+a{
+    margin-top: 12px;
+    color:black ;
+    cursor: pointer;
+}
+a:hover{
+    background-color: blue;
+    color: grey;
+
+}
+.fas{
+    padding: 20px;
+}
+.con{
+    padding: 100px;
+    background-color: black;
+    color: white;
+    border: 3px;
+}
